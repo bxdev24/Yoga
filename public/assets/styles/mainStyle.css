@@ -1,0 +1,268 @@
+body {
+	padding: 10px;
+	background-color: #e6f2ff;
+}
+
+.content {
+	padding-top: 15px;
+	margin: 7% auto;
+	max-height: 100%;
+	max-width: 100%;
+	height: 100%;
+	width: 99%;
+}
+
+.contentBox {
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	background-color: #f7fbff;
+	color: #4d86b3;
+	margin-left: 25px;
+	margin-right: 15px;
+	border: solid #6da1c9 1px;
+	text-align: center;
+	width: 45%;
+	height: 700px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.contentImage {
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	color: #4d86b3;
+	margin-left: 25px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	background-color: #f7fbff;
+	border: solid #6da1c9 1px;
+	text-align: center;
+	width: 45%;
+	height: 340px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.poseContainer {
+	margin: 0 auto;
+	width: 90%
+}
+
+.contentPoseImage {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	color: #4d86b3;
+	margin: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: #f7fbff;
+	border: solid #6da1c9 1px;
+	text-align: center;
+	width: 20%;
+	height: 200px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.headerBar {
+	background-color: #f7fbff;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	right: 0px;
+	height: 10%;
+	min-height: 70px;
+	border-bottom: solid #6da1c9 2px;
+	box-shadow: 0 8px 8px -8px #6da1c9;
+	z-index: 999;
+}
+
+.navContainer {
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+}
+
+.navButton {
+	display: inline-block;
+	color: #4d86b3;
+	margin: auto;
+	margin-right: 15px;
+	background-color: #e6f2ff;
+	border: solid #6da1c9 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.navButton:hover {
+	display: inline-block;
+	color: #4d86b3;
+	margin: auto;
+	margin-right: 15px;
+	background-color: #b8cff5;
+	border: solid #6da1c9 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 0px 0px 0px #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #4d86b3;
+}
+
+.poseSequencer {
+	position: relative;
+	margin-top: -3%;
+	margin-left: 10%;
+}
+
+.prePose {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	background-color: #f7fbff;
+	color: #4d86b3;
+	margin-left: 25px;
+	margin-right: 15px;
+	border: solid #6da1c9 1px;
+	text-align: center;
+	width: 20%;
+	height: 300px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.mainPose {
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	left: 10px;
+	background-color: #f7fbff;
+	color: #4d86b3;
+	margin-left: 25px;
+	margin-right: 15px;
+	border: solid #6da1c9 1px;
+	text-align: center;
+	width: 40%;
+	height: 700px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.mainPoseImage {
+	position: relative;
+	margin: auto;
+	top: 25px;
+	height: 60%;
+	width: 80%;
+	border: solid #6da1c9 1px;
+}
+
+.mainPoseContent {
+	position: relative;
+	top: 25px;
+}
+
+.nextPose {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	background-color: #f7fbff;
+	color: #4d86b3;
+	margin-left: 25px;
+	margin-right: 15px;
+	border: solid #6da1c9 1px;
+	text-align: center;
+	width: 20%;
+	height: 300px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.backPoseButton {
+	display: inline-block;
+	color: #4d86b3;
+	position: relative;
+	bottom: -175px;
+	margin: auto;
+	background-color: #e6f2ff;
+	border: solid #6da1c9 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.backPoseButton:hover {
+	display: inline-block;
+	color: #4d86b3;
+	position: relative;
+	bottom: -175px;
+	margin: auto;
+	background-color: #b8cff5;
+	border: solid #6da1c9 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 0px 0px 0px #000000;
+}
+
+.nextPoseButton {
+	display: inline-block;
+	color: #4d86b3;
+	position: relative;
+	bottom: -175px;
+	margin: auto;
+	background-color: #e6f2ff;
+	border: solid #6da1c9 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 3px 3px 2px #6da1c9;
+}
+
+.nextPoseButton:hover {
+	display: inline-block;
+	color: #4d86b3;
+	position: relative;
+	bottom: -175px;
+	margin: auto;
+	background-color: #b8cff5;
+	border: solid #6da1c9 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 0px 0px 0px #000000;
+}
+
+.loginPanel {
+	position: relative;
+	margin: auto;
+	color: #4d86b3;
+	margin-top: 0%;
+	height: 190px;
+	width: 400px;
+	background-color: #f7fbff;
+	border: solid #6da1c9 1px;
+}
+
+input[type=text], input[type=password] {
+	width: 98%;
+	padding: 12px 20px;
+	margin: 8px 1%;
+	color: #4d86b3;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.submission {
+	color: #4d86b3;
+	display: inline-block;
+	float: left;
+	margin-left: 1%;
+}
